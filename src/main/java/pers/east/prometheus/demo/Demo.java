@@ -16,9 +16,10 @@ public class Demo {
 
     }
 
+
     public static void main(String[] args) {
         try {
-            //从spring上下文中取出这些实例
+
             Counter counter = Counter.build()
                     .name("blog_visit")
                     .labelNames("blog_id")

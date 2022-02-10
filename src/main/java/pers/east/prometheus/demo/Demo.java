@@ -19,7 +19,6 @@ public class Demo {
 
     public static void main(String[] args) {
         try {
-
             Counter counter = Counter.build()
                     .name("blog_visit")
                     .labelNames("blog_id")
